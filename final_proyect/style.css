@@ -1,0 +1,17 @@
+.modal-body {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.modal-body img {
+    flex: 0 0 auto; /* No se hace flexible (no se estira), tamaño automático */
+    margin-right: 20px; /* Margen derecho para separar la imagen del contenido */
+}
+
+.content-mod {
+    flex: 1; /* Ocupa todo el espacio restante */
+}
+.modal-header{
+    text-align: center;
+    align-items: center;
+}
