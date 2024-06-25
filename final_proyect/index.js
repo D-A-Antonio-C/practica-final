@@ -1,5 +1,5 @@
 function eventos_info(){
-    fetch('eventos.json')
+    fetch('evento.json')
     .then( response => response.json())
     .then(data =>{
         data.forEach(punto =>{
@@ -93,7 +93,7 @@ function eventos_info(){
 
 function moreInfo(codigo){
     let x=codigo-1
-    fetch('eventos.json')
+    fetch('evento.json')
     .then(response => response.json())
     .then(data =>{
         // Obtener el elemento h1 por su ID
@@ -119,10 +119,9 @@ function moreInfo(codigo){
 
         
 
-        map.setView([data[x].coordenadas[0],data[x].coordenadas[1]], 15);
-        L.marker([data[x].coordenadas[0],data[x].coordenadas[1]]).addTo(map);
+        map1.setView([data[x].coordenadas[0],data[x].coordenadas[1]], 15);
+        L.marker([data[x].coordenadas[0],data[x].coordenadas[1]]).addTo(map1);
 
-        /*mapa(data[x].coordenadas[0],data[x].coordenadas[1])*/
 
     })
 }
