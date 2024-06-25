@@ -1,0 +1,56 @@
+[
+    {
+    "codigo":1,
+    "nombre":"Inti Raymi",
+    "descripcion_corta":"Celebración ancestral incaica del sol con rituales, música y danzas.",
+    "descripcion_larga":"Inti Raymi es una festividad ancestral incaica celebrada cada 24 de junio en Cusco, Perú, para rendir homenaje al Inti (el sol). Esta ceremonia sagrada incluye rituales que recrean las tradiciones históricas de los incas, como la invocación a los dioses, la purificación con fuego, la música de instrumentos ancestrales como la quena y el bombo, danzas ceremoniales que representan la conexión entre los seres humanos y la naturaleza, y la vestimenta tradicional que evoca la grandeza y el esplendor de la civilización incaica.",
+    "lugar":"Cuzco-qorikancha",
+    "coordenadas":[-13.52039340740356,-71.9757914543152],
+    "tipo_de_evento":"Obra-Teatrales",
+    "entradas":""
+    },
+    
+    {
+    "codigo":2,
+    "nombre":"Scaperoom R.F.",
+    "descripcion_corta":"El juego Escape Room en la Fortaleza Real Felipe.",
+    "descripcion_larga":"consisten en escapar de una de las celdas de la fortaleza Real Felipe en la que han ingresado un grupo de amigos y hacerlo en menos de 45 minutos. Para poder conseguirlo deberán resolver una serie acertijos que están preparados para ser resueltos gracias a la observación, ingenio y coordinación grupal. Es un juego mental innovador, divertido y retador. ¡Perfecto para poder integrarse y reconectarse a través de la diversión! No se necesita ningún talento o herramienta especial, solo una mente rápida y buena comunicación.",
+    "lugar":"Lima-fortaleza Real Felipe",
+    "coordenadas":[-12.062687121922227,-77.14919328689577],
+    "tipo_de_evento":"Experiencias-sociales",
+    "entradas":""
+    },
+    
+    {
+    "codigo":3,
+    "nombre":"Kjarcas 360",
+    "descripcion_corta":"concierto de kjarcas y chila jatun en ica.",
+    "descripcion_larga":"Kjarkas, el afamado grupo folclórico de Bolivia, llegará a Ica para presentarse en un espectáculo único, emocionante y novedoso. Además, nos brindarán la sorpresa de contar con la participación especial de sus talentosos hijos en el escenario. El grupo 'Chila Jatun' se unirá a ellos por primera vez juntos en Lima para deleitarnos con sus mejores temas. ¡No te puedes perder este increíble encuentro musical!.",
+    "lugar":"Ica",
+    "coordenadas":[-14.06661931197718 ,-75.73442459106447],
+    "tipo_de_evento":"Conciertos",
+    "entradas":""
+    },
+
+    {
+    "codigo":4,
+    "nombre":"Sinfonia italiana",
+    "descripcion_corta":"La Orquesta Sinfónica Nacional Juvenil Bicentenario alista un nuevo concierto",
+    "descripcion_larga":"La Orquesta Sinfónica Nacional Juvenil Bicentenario alista un nuevo concierto en el Gran Teatro Nacional bajo el título “Sinfonía Italiana”. Bajo la dirección del maestro Pablo Sabat y con el acompañamiento en calidad de solista del clarinetista Bryan Henostroza, el elenco presenta un repertorio que recoge las variaciones melódicas de la música italiana del siglo XIX.En sus veinte años de existencia la OSNJB se ha convertido en una de las principales agrupaciones sinfónicas del país.",
+    "lugar":"Lima-Estadio Nacional",
+    "coordenadas":[-12.067251076285714,-77.03375101089479],
+    "tipo_de_evento":"Conciertos",
+    "entradas":""
+    },
+
+    {
+    "codigo":5,
+    "nombre":"City Tour",
+    "descripcion_corta":"CITY TOUR EN LIMA + CATACUMBAS",
+    "descripcion_larga":"La Orquesta Sinfónica Nacional Juvenil Bicentenario alista un nuevo concierto en el Gran Teatro Nacional bajo el título “Sinfonía Italiana”. Bajo la dirección del maestro Pablo Sabat y con el acompañamiento en calidad de solista del clarinetista Bryan Henostroza, el elenco presenta un repertorio que recoge las variaciones melódicas de la música italiana del siglo XIX.En sus veinte años de existencia la OSNJB se ha convertido en una de las principales agrupaciones sinfónicas del país.",
+    "lugar":"Lima-Estadio Nacional",
+    "coordenadas":[-12.051712329787252,-77.03458786010744],
+    "tipo_de_evento":"Experiencias-sociales",
+    "entradas":""
+    }
+    ]
