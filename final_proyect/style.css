@@ -6,12 +6,38 @@
 .modal-body img {
     flex: 0 0 auto; /* No se hace flexible (no se estira), tamaño automático */
     margin-right: 20px; /* Margen derecho para separar la imagen del contenido */
+    width: 550px;
+    height: auto;
+}
+
+.event-container h2{
+ text-align: center;
 }
 
 .content-mod {
     flex: 1; /* Ocupa todo el espacio restante */
 }
+
+.content-mod p{
+    width: 500px;
+    margin: 20px;
+}
+
 .modal-header{
     text-align: center;
     align-items: center;
+}
+
+.card{
+    margin: 10px;
+}
+
+.mapaint-subcontainer{
+    display: flex;
+    align-items: center;
+}
+
+.mapaint-selector{
+    flex: 1; /* Ocupa todo el espacio restante */
+    height: 300px;
 }
