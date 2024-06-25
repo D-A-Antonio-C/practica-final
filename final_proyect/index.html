@@ -18,9 +18,13 @@
     crossorigin=""></script>
 
     <style>
-        #map { 
+        #map1 { 
         height: 200px;
         width: 500px; 
+        }
+        #map { 
+        height: 300px;
+        width: 950px; 
         }
     </style>
     
@@ -98,10 +102,30 @@
         </button>
     </div>
 
-    <!--eventos-->
+    <!--mapa interactuable-->
+    <div class="mapaint-container">
+      <h2>mapa de eventos:</h2>
+      <div class="mapaint-subcontainer">
+        <div id="map"></div>
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="script.js"></script>
+        <div class="mapaint-selector card">
+          <h2>Eventos programados:</h2>
+          
+          <div id="selector-container">
 
-    <div>
-        <h2>eventos:</h2>
+            <form id="eventTypeForm">
+              
+            </form>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--eventos-->
+    <div class="event-container">
+        <h2>Eventos:</h2>
         <div class="d-flex flex-row mb-3 justify-content-evenly" id="micontenedor">
             <script>eventos_info()</script>
         </div>
@@ -122,21 +146,23 @@
                 
                 <h5>localizacion:</h5>
 
-                <div id="map"></div>
+                <div id="map1"></div>
                 <script>
-                  var map = L.map('map').setView([-13.52039340740356, -71.9757914543152], 10);
+
+                  var map1 = L.map('map1').setView([0,0], 10);
                   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                   maxZoom: 19,
                   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                  }).addTo(map);
+                  }).addTo(map1);
 
-                  map.on('click', function(e) {
+                  map1.on('click', function(e) {
                       var lat = e.latlng.lat;
                       var lng = e.latlng.lng;
 
                       console.log("Latitud del clic:", lat);
                       console.log("Longitud del clic:", lng);
                   });
+
                 </script>
                 <div id="button-container">
                   <button></button>
